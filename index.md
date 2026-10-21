@@ -8,7 +8,7 @@ title: "Data Science Portfolio"
 <!-- Confirm the student identity and personal focus before publication. -->
 Data science student interested in reproducible analysis and clear communication.
 
-[GitHub](https://github.com/ByronLen) | [Project repository](https://github.com/ByronLen/data-science-project) | [Live site — pending deployment](https://ByronLen.github.io/data-science-portfolio/)
+[GitHub](https://github.com/ByronLen) | [Project repository](https://github.com/ByronLen/data-science-project) | [Live site — pending deployment](https://byronlen.github.io/data-science-portfolio/)
 
 ## About
 

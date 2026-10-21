@@ -2,7 +2,7 @@
 
 A single-page GitHub Pages portfolio presenting Byron's reproducible Palmer Penguins analysis.
 
-- [Live site — pending deployment](https://ByronLen.github.io/data-science-portfolio/)
+- [Live site — pending deployment](https://byronlen.github.io/data-science-portfolio/)
 - [Featured project](https://github.com/ByronLen/data-science-project)
 - [Portfolio repository — pending publication](https://github.com/ByronLen/data-science-portfolio)
 
