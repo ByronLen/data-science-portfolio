@@ -23,7 +23,7 @@ I am a data science student interested in reproducible analysis and clear commun
 
 ## Penguin Morphometrics: Can Four Measurements Identify a Species?
 
-Analysis complete · 3 visualizations · Peer review: Planned
+Analysis complete · 3 visualizations · Peer review: feedback received and revision completed
 
 ### Purpose
 
@@ -42,10 +42,13 @@ Palmer Penguins contains 344 observations collected by Kristen Gorman and Palmer
 
 ### Findings
 
-- Gentoo mean body mass is 5076.016 g versus 3700.662 g (Adelie) and 3733.088 g (Chinstrap); its mean bill depth is 14.982 mm versus 18.346 and 18.421 mm, respectively.
-- Adelie and Chinstrap mean bill lengths differ (38.791 versus 48.834 mm), while both have median body mass 3700.000 g. Flipper length has the strongest descriptive separation (eta-squared 0.778); distributions still overlap.
-- Test accuracy and macro F1 are both 1.000 on 86 observations, with zero errors and therefore no dominant confusion pair. Training-only cross-validation accuracy is 0.980 ± 0.012.
-- Flipper length versus mass has overall r=0.871 versus 0.468 (Adelie), 0.642 (Chinstrap), and 0.703 (Gentoo). Bill versus flipper length has overall r=0.656 versus 0.326 (Adelie), 0.472 (Chinstrap), and 0.661 (Gentoo): pooled correlation is not always greater than every within-species correlation.
+These four body measurements distinguish the three species well in this dataset, but strong results here do not guarantee accurate predictions for penguins elsewhere.
+
+- Gentoo are generally heavier, with longer flippers and shallower bills. Their average body mass is about 5.08 kg, compared with about 3.70 kg for Adelie and 3.73 kg for Chinstrap (Figure 1).
+- Adelie and Chinstrap have similar body masses, but their average bill lengths differ: about 38.8 mm versus 48.8 mm. The distributions still overlap (Figures 1–2).
+- The model correctly classified all 86 test observations in this single split. **A perfect test score does not mean perfect performance on external data.** Training-only cross-validation accuracy was about 98.0%, with a standard deviation of 1.2 percentage points (Figure 3).
+
+Combining species can hide differences in within-species relationships. Figure 2 illustrates this distinction; the project README and results files retain the detailed statistics.
 
 ### Limitations
 
@@ -85,12 +88,19 @@ Palmer Penguins contains 344 observations collected by Kristen Gorman and Palmer
 | Analysis code and README | Complete |
 | Two or more visualizations | Complete |
 | GitHub Pages site | Live — verified 2026-10-21 |
-| Peer feedback and revision | Planned |
-| Moodle post | Not posted yet |
+| Peer feedback and revision | Complete — 2026-10-21 |
+| Moodle post | [Posted — 2026-10-21](https://ummoodle.um.edu.mo/mod/forum/discuss.php?d=467138) |
 
 ## Peer feedback
 
-Planned: one round of peer review will be completed before the Moodle post.
+Feedback supplied by the author on 2026-10-21; reviewer kept anonymous.
+
+- **Understanding:** The reviewer identified the four-measurement classification question and the distinction between descriptive group differences and predictive accuracy.
+- **Findings and limitations:** The reviewer understood the Gentoo differences, the Adelie/Chinstrap comparison, the 86 correct test predictions, and the sampling and external-validity limitations.
+- **Suggestion accepted:** Findings were too number-dense, and three decimal places made the main message harder to identify. Lead with a plain-language conclusion, retain only a few key numbers, and place the external-validation warning next to the test result.
+- **Change made:** Rewrote Findings for non-specialist readers, rounded summary values, and moved detailed statistics behind the project README/results links. Analysis code, data, figures, and original metrics were not changed.
+
+Revision record: see the [commit history for this page](https://github.com/ByronLen/data-science-portfolio/commits/main/index.md), commit titled "docs: simplify findings and record peer feedback".
 
 
 ## What I learned
