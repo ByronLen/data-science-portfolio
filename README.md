@@ -39,13 +39,13 @@ After deployment, verify every link, all three images, and the layout at a 375px
 | Peer feedback and revision | Planned |
 | Moodle post | Not posted yet |
 
-The human author independently reran the analysis on 2026-10-21 and confirmed exact reproduction. This is separate from peer feedback. This portfolio has not been deployed or pushed by the assistant.
+The human author independently reran the analysis on 2026-10-21 and confirmed exact reproduction. This is separate from peer feedback. The portfolio repository has been pushed; the GitHub Pages site is pending deployment.
 
 ## AI assistance
 
 An external AI assistant (OpenAI Codex) generated the initial analysis code and project documentation and executed the reported workspace validation. The human author selected the topic, reviewed the code and project README, independently reran the analysis on 2026-10-21, and confirmed that the reported outputs reproduced exactly. The human author retains responsibility for publication and final decisions.
 
-The assistant also prepared this portfolio draft under human direction. Human review of the portfolio's personal statements and final publication remains pending. See the [project AI assistance statement](https://github.com/ByronLen/data-science-project/blob/main/README.md#ai-assistance).
+The assistant also prepared this portfolio draft under human direction. Human review of the portfolio's personal statements remains pending. See the [project AI assistance statement](https://github.com/ByronLen/data-science-project/blob/main/README.md#ai-assistance).
 
 ## Local validation (2026-10-21)
 
@@ -53,4 +53,4 @@ YAML front matter and theme configuration parse successfully. The page has one H
 
 A local approximation using Markdown rendering and the Minimal theme's public stylesheet loaded all three figures and showed no horizontal overflow at 375px (document width 375px). This is not a Jekyll build: Ruby/Jekyll is unavailable in this environment. Verify the actual GitHub Pages build and deployed mobile layout after publication.
 
-The GitHub profile, project repository, project README, data page, and DOI returned HTTP 200. The intended portfolio repository and live-site URLs returned HTTP 404 because publication/deployment is pending; these links are labeled accordingly. No push or repository creation was performed. Thus the all-links-reachable and actual Pages-build quality gates remain pending.
+The GitHub profile, project repository, project README, data page, DOI, and portfolio repository returned HTTP 200. The live-site URL returned 404 because GitHub Pages is not yet enabled; it is labeled pending. The repository has been pushed, but the actual Pages build, deployed links, and mobile layout remain to be verified. Thus the all-links-reachable and Pages-build quality gates remain pending.
