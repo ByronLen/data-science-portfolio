@@ -104,7 +104,7 @@ I learned to separate descriptive differences from predictive performance and to
 
 ## Contact
 
-[GitHub: ByronLen](https://github.com/ByronLen) · [Portfolio repository](https://github.com/ByronLen/data-science-portfolio)
+[GitHub: ByronLen](https://github.com/ByronLen) · [Portfolio repository — pending publication](https://github.com/ByronLen/data-science-portfolio)
 
 Last updated: 2026-10-21.
 

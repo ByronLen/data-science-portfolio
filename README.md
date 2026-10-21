@@ -4,7 +4,7 @@ A single-page GitHub Pages portfolio presenting Byron's reproducible Palmer Peng
 
 - [Live site — pending deployment](https://ByronLen.github.io/data-science-portfolio/)
 - [Featured project](https://github.com/ByronLen/data-science-project)
-- [Portfolio repository](https://github.com/ByronLen/data-science-portfolio)
+- [Portfolio repository — pending publication](https://github.com/ByronLen/data-science-portfolio)
 
 ## Structure
 
@@ -46,3 +46,11 @@ The human author independently reran the analysis on 2026-10-21 and confirmed ex
 An external AI assistant (OpenAI Codex) generated the initial analysis code and project documentation and executed the reported workspace validation. The human author selected the topic, reviewed the code and project README, independently reran the analysis on 2026-10-21, and confirmed that the reported outputs reproduced exactly. The human author retains responsibility for publication and final decisions.
 
 The assistant also prepared this portfolio draft under human direction. Human review of the portfolio's personal statements and final publication remains pending. See the [project AI assistance statement](https://github.com/ByronLen/data-science-project/blob/main/README.md#ai-assistance).
+
+## Local validation (2026-10-21)
+
+YAML front matter and theme configuration parse successfully. The page has one H1, descriptive alt text for all three images, two-column status tables, and relative image paths. Copied figures match the original project byte for byte.
+
+A local approximation using Markdown rendering and the Minimal theme's public stylesheet loaded all three figures and showed no horizontal overflow at 375px (document width 375px). This is not a Jekyll build: Ruby/Jekyll is unavailable in this environment. Verify the actual GitHub Pages build and deployed mobile layout after publication.
+
+The GitHub profile, project repository, project README, data page, and DOI returned HTTP 200. The intended portfolio repository and live-site URLs returned HTTP 404 because publication/deployment is pending; these links are labeled accordingly. No push or repository creation was performed. Thus the all-links-reachable and actual Pages-build quality gates remain pending.
