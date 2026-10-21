@@ -79,3 +79,33 @@ Palmer Penguins contains 344 observations collected by Kristen Gorman and Palmer
        width="100%">
 </p>
 <p><em>Figure 3. All 86 held-out observations are classified correctly in this fixed split; perfect accuracy here does not establish performance on external populations.</em></p>
+
+## Project status
+
+<!-- After verification, change site status to Live; record feedback as Complete — DATE and Moodle as Posted — DATE. Independent author verification is not peer review. -->
+| Component | Status |
+|---|---|
+| Analysis code and README | Complete |
+| Two or more visualizations | Complete |
+| GitHub Pages site | Pending deployment |
+| Peer feedback and revision | Planned |
+| Moodle post | Not posted yet |
+
+## Peer feedback
+
+Planned: one round of peer review will be completed before the Moodle post.
+
+<!-- Replace after review with the date, reviewer initials, 1–3 points, revisions, and real repository commit URLs. Do not invent feedback or imply the author's rerun was peer review. -->
+
+## What I learned
+
+<!-- Proposed first-person reflection: confirm that this describes your own learning. -->
+I learned to separate descriptive differences from predictive performance and to keep scaling inside the training pipeline. Comparing pooled and within-species correlations showed me why a strong overall association can hide group structure. I also learned to document limitations, check relative image paths, and distinguish completed analysis from pending publication.
+
+## Contact
+
+[GitHub: ByronLen](https://github.com/ByronLen) · [Portfolio repository](https://github.com/ByronLen/data-science-portfolio)
+
+Last updated: 2026-10-21.
+
+Built with human direction and AI assistance; see the [project README](https://github.com/ByronLen/data-science-project/blob/main/README.md#ai-assistance) for details.
