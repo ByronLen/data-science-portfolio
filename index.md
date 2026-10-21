@@ -5,14 +5,12 @@ title: "Data Science Portfolio"
 
 # Byron
 
-<!-- Confirm the student identity and personal focus before publication. -->
 Data science student interested in reproducible analysis and clear communication.
 
-[GitHub](https://github.com/ByronLen) | [Project repository](https://github.com/ByronLen/data-science-project) | [Live site — pending deployment](https://byronlen.github.io/data-science-portfolio/)
+[GitHub](https://github.com/ByronLen) | [Project repository](https://github.com/ByronLen/data-science-project) | [Live site](https://byronlen.github.io/data-science-portfolio/)
 
 ## About
 
-<!-- Neutral default supplied by the brief; confirm or replace with your own background. -->
 I am a data science student interested in reproducible analysis and clear communication.
 
 ## Skills
@@ -21,7 +19,7 @@ I am a data science student interested in reproducible analysis and clear commun
 - **Programming:** Python.
 - **Data analysis:** pandas, NumPy, data cleaning, exploratory data analysis, model evaluation, scikit-learn.
 - **Visualization:** Matplotlib, Seaborn.
-- **Tools:** Git/GitHub; GitHub Pages/Jekyll (this site; deployment pending).
+- **Tools:** Git/GitHub; GitHub Pages/Jekyll (this site).
 
 ## Penguin Morphometrics: Can Four Measurements Identify a Species?
 
@@ -82,12 +80,11 @@ Palmer Penguins contains 344 observations collected by Kristen Gorman and Palmer
 
 ## Project status
 
-<!-- After verification, change site status to Live; record feedback as Complete — DATE and Moodle as Posted — DATE. Independent author verification is not peer review. -->
 | Component | Status |
 |---|---|
 | Analysis code and README | Complete |
 | Two or more visualizations | Complete |
-| GitHub Pages site | Pending deployment |
+| GitHub Pages site | Live — verified 2026-10-21 |
 | Peer feedback and revision | Planned |
 | Moodle post | Not posted yet |
 
@@ -95,16 +92,14 @@ Palmer Penguins contains 344 observations collected by Kristen Gorman and Palmer
 
 Planned: one round of peer review will be completed before the Moodle post.
 
-<!-- Replace after review with the date, reviewer initials, 1–3 points, revisions, and real repository commit URLs. Do not invent feedback or imply the author's rerun was peer review. -->
 
 ## What I learned
 
-<!-- Proposed first-person reflection: confirm that this describes your own learning. -->
-I learned to separate descriptive differences from predictive performance and to keep scaling inside the training pipeline. Comparing pooled and within-species correlations showed me why a strong overall association can hide group structure. I also learned to document limitations, check relative image paths, and distinguish completed analysis from pending publication.
+I learned to separate descriptive differences from predictive performance and to keep scaling inside the training pipeline. Comparing pooled and within-species correlations showed me why a strong overall association can hide group structure. I also learned to document limitations, check relative image paths, and separate analysis quality from publication status.
 
 ## Contact
 
-[GitHub: ByronLen](https://github.com/ByronLen) · [Portfolio repository — pending publication](https://github.com/ByronLen/data-science-portfolio)
+[GitHub: ByronLen](https://github.com/ByronLen) · [Portfolio repository](https://github.com/ByronLen/data-science-portfolio)
 
 Last updated: 2026-10-21.
 
